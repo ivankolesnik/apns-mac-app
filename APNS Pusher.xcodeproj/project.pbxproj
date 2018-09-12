@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D1138E918BE9841000A0779 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D1138E818BE9841000A0779 /* MainMenu.xib */; };
+		8D15ECE418B391F000D3A983 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D15ECE318B391F000D3A983 /* Cocoa.framework */; };
+		8D15ECEE18B391F000D3A983 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D15ECEC18B391F000D3A983 /* InfoPlist.strings */; };
+		8D15ECF018B391F000D3A983 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D15ECEF18B391F000D3A983 /* main.m */; };
+		8D15ECF418B391F000D3A983 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8D15ECF218B391F000D3A983 /* Credits.rtf */; };
+		8D15ECF718B391F000D3A983 /* APAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D15ECF618B391F000D3A983 /* APAppDelegate.m */; };
+		8D15ED1B18B3922700D3A983 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D15ED1A18B3922700D3A983 /* Security.framework */; };
+		8D15ED3B18B3B5A300D3A983 /* APHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D15ED3A18B3B5A300D3A983 /* APHelper.m */; };
+		8D18E54D18C0A66000E04B70 /* Resources.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D15ECFE18B391F000D3A983 /* Resources.xcassets */; };
+		8D200E5C2149AD3300AF7D43 /* APNS Pusher.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D200E5A2149AD3300AF7D43 /* APNS Pusher.xcdatamodeld */; };
+		8D2B4856191278DE00CFE0E6 /* APNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2B4855191278DE00CFE0E6 /* APNetworkingManager.m */; };
+		8D2B48591912929500CFE0E6 /* APCertificateHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2B48581912929500CFE0E6 /* APCertificateHolder.m */; };
+		8D5D90A218C92960009BF010 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D15ECE618B391F000D3A983 /* AppKit.framework */; };
+		8D5D90A318C92960009BF010 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D15ECE718B391F000D3A983 /* CoreData.framework */; };
+		8D5D90A418C92960009BF010 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D15ECE818B391F000D3A983 /* Foundation.framework */; };
+		8D5F4A0018BF7D6400F620A9 /* APDeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5F49FF18BF7D6400F620A9 /* APDeviceModel.m */; };
+		8D6F779718B7541B001E2D13 /* APViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6F779518B7541B001E2D13 /* APViewController.m */; };
+		8D6F779818B7541B001E2D13 /* APViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D6F779618B7541B001E2D13 /* APViewController.xib */; };
+		8D8BB0F9198BC45300E80E32 /* APStackOfStacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8BB0F8198BC45300E80E32 /* APStackOfStacks.m */; };
+		8D8BEC6E18BB564900E80C62 /* APArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8BEC6D18BB564900E80C62 /* APArrayController.m */; };
+		8DA7995A197FB925000ECB2C /* APPayloadHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA79959197FB925000ECB2C /* APPayloadHolder.m */; };
+		8DA7995D197FC29D000ECB2C /* APPayloadStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA7995C197FC29D000ECB2C /* APPayloadStack.m */; };
+		8DB137261B1349D4003B3E92 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB137251B1349D4003B3E92 /* GCDAsyncSocket.m */; };
+		8DB369BB1A24E3AF004242BF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB369BA1A24E3AF004242BF /* CoreFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D1138E818BE9841000A0779 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		8D15ECE018B391F000D3A983 /* APNS Pusher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APNS Pusher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D15ECE318B391F000D3A983 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8D15ECE618B391F000D3A983 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8D15ECE718B391F000D3A983 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8D15ECE818B391F000D3A983 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8D15ECEB18B391F000D3A983 /* APNS Pusher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APNS Pusher-Info.plist"; sourceTree = "<group>"; };
+		8D15ECED18B391F000D3A983 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D15ECEF18B391F000D3A983 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D15ECF118B391F000D3A983 /* APNS Pusher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APNS Pusher-Prefix.pch"; sourceTree = "<group>"; };
+		8D15ECF318B391F000D3A983 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		8D15ECF518B391F000D3A983 /* APAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APAppDelegate.h; sourceTree = "<group>"; };
+		8D15ECF618B391F000D3A983 /* APAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APAppDelegate.m; sourceTree = "<group>"; };
+		8D15ECFE18B391F000D3A983 /* Resources.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources.xcassets; sourceTree = "<group>"; };
+		8D15ED1A18B3922700D3A983 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8D15ED3918B3B5A300D3A983 /* APHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = APHelper.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		8D15ED3A18B3B5A300D3A983 /* APHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = APHelper.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8D200E5B2149AD3300AF7D43 /* APNS Pusher.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "APNS Pusher.xcdatamodel"; sourceTree = "<group>"; };
+		8D2B4854191278DE00CFE0E6 /* APNetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNetworkingManager.h; sourceTree = "<group>"; };
+		8D2B4855191278DE00CFE0E6 /* APNetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APNetworkingManager.m; sourceTree = "<group>"; };
+		8D2B48571912929500CFE0E6 /* APCertificateHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCertificateHolder.h; sourceTree = "<group>"; };
+		8D2B48581912929500CFE0E6 /* APCertificateHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCertificateHolder.m; sourceTree = "<group>"; };
+		8D3D710520EA68C300E77B5B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8D3D710620EA6FAD00E77B5B /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		8D5F49FE18BF7D6400F620A9 /* APDeviceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APDeviceModel.h; sourceTree = "<group>"; };
+		8D5F49FF18BF7D6400F620A9 /* APDeviceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APDeviceModel.m; sourceTree = "<group>"; };
+		8D6F779418B7541B001E2D13 /* APViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APViewController.h; sourceTree = "<group>"; };
+		8D6F779518B7541B001E2D13 /* APViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = APViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8D6F779618B7541B001E2D13 /* APViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APViewController.xib; sourceTree = "<group>"; };
+		8D8BB0F7198BC45300E80E32 /* APStackOfStacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APStackOfStacks.h; sourceTree = "<group>"; };
+		8D8BB0F8198BC45300E80E32 /* APStackOfStacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APStackOfStacks.m; sourceTree = "<group>"; };
+		8D8BEC6C18BB564900E80C62 /* APArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APArrayController.h; sourceTree = "<group>"; };
+		8D8BEC6D18BB564900E80C62 /* APArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APArrayController.m; sourceTree = "<group>"; };
+		8DA79958197FB925000ECB2C /* APPayloadHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPayloadHolder.h; sourceTree = "<group>"; };
+		8DA79959197FB925000ECB2C /* APPayloadHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPayloadHolder.m; sourceTree = "<group>"; };
+		8DA7995B197FC29D000ECB2C /* APPayloadStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPayloadStack.h; sourceTree = "<group>"; };
+		8DA7995C197FC29D000ECB2C /* APPayloadStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPayloadStack.m; sourceTree = "<group>"; };
+		8DB137241B1349D4003B3E92 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		8DB137251B1349D4003B3E92 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		8DB369BA1A24E3AF004242BF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15ECDD18B391F000D3A983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB369BB1A24E3AF004242BF /* CoreFoundation.framework in Frameworks */,
+				8D15ED1B18B3922700D3A983 /* Security.framework in Frameworks */,
+				8D15ECE418B391F000D3A983 /* Cocoa.framework in Frameworks */,
+				8D5D90A218C92960009BF010 /* AppKit.framework in Frameworks */,
+				8D5D90A318C92960009BF010 /* CoreData.framework in Frameworks */,
+				8D5D90A418C92960009BF010 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D15ECD718B391F000D3A983 = {
+			isa = PBXGroup;
+			children = (
+				8D3D710620EA6FAD00E77B5B /* LICENSE.md */,
+				8D3D710520EA68C300E77B5B /* README.md */,
+				8D15ECE918B391F000D3A983 /* APNS Pusher */,
+				8D15ECE218B391F000D3A983 /* Frameworks */,
+				8D15ECE118B391F000D3A983 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D15ECE118B391F000D3A983 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15ECE018B391F000D3A983 /* APNS Pusher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D15ECE218B391F000D3A983 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D15ECE618B391F000D3A983 /* AppKit.framework */,
+				8D15ECE718B391F000D3A983 /* CoreData.framework */,
+				8D15ECE818B391F000D3A983 /* Foundation.framework */,
+				8DB369BA1A24E3AF004242BF /* CoreFoundation.framework */,
+				8D15ED1A18B3922700D3A983 /* Security.framework */,
+				8D15ECE318B391F000D3A983 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D15ECE918B391F000D3A983 /* APNS Pusher */ = {
+			isa = PBXGroup;
+			children = (
+				8D15ECF518B391F000D3A983 /* APAppDelegate.h */,
+				8D15ECF618B391F000D3A983 /* APAppDelegate.m */,
+				8D1138E818BE9841000A0779 /* MainMenu.xib */,
+				8D6F779418B7541B001E2D13 /* APViewController.h */,
+				8D6F779518B7541B001E2D13 /* APViewController.m */,
+				8D6F779618B7541B001E2D13 /* APViewController.xib */,
+				8D2B4854191278DE00CFE0E6 /* APNetworkingManager.h */,
+				8D2B4855191278DE00CFE0E6 /* APNetworkingManager.m */,
+				8D15ED3C18B3B78800D3A983 /* Helpers */,
+				8D15ECEA18B391F000D3A983 /* Supporting Files */,
+			);
+			path = "APNS Pusher";
+			sourceTree = "<group>";
+		};
+		8D15ECEA18B391F000D3A983 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D200E5A2149AD3300AF7D43 /* APNS Pusher.xcdatamodeld */,
+				8D15ECFE18B391F000D3A983 /* Resources.xcassets */,
+				8D15ECEB18B391F000D3A983 /* APNS Pusher-Info.plist */,
+				8D15ECEC18B391F000D3A983 /* InfoPlist.strings */,
+				8D15ECEF18B391F000D3A983 /* main.m */,
+				8D15ECF118B391F000D3A983 /* APNS Pusher-Prefix.pch */,
+				8D15ECF218B391F000D3A983 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D15ED3C18B3B78800D3A983 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8DB137241B1349D4003B3E92 /* GCDAsyncSocket.h */,
+				8DB137251B1349D4003B3E92 /* GCDAsyncSocket.m */,
+				8D8BB0FC198BC7E300E80E32 /* Common */,
+				8D8BB0FB198BC7D800E80E32 /* Certificates */,
+				8D8BB0FA198BC7CE00E80E32 /* PayloadsStack */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		8D8BB0FA198BC7CE00E80E32 /* PayloadsStack */ = {
+			isa = PBXGroup;
+			children = (
+				8DA79958197FB925000ECB2C /* APPayloadHolder.h */,
+				8DA79959197FB925000ECB2C /* APPayloadHolder.m */,
+				8DA7995B197FC29D000ECB2C /* APPayloadStack.h */,
+				8DA7995C197FC29D000ECB2C /* APPayloadStack.m */,
+				8D8BB0F7198BC45300E80E32 /* APStackOfStacks.h */,
+				8D8BB0F8198BC45300E80E32 /* APStackOfStacks.m */,
+			);
+			name = PayloadsStack;
+			sourceTree = "<group>";
+		};
+		8D8BB0FB198BC7D800E80E32 /* Certificates */ = {
+			isa = PBXGroup;
+			children = (
+				8D2B48571912929500CFE0E6 /* APCertificateHolder.h */,
+				8D2B48581912929500CFE0E6 /* APCertificateHolder.m */,
+			);
+			name = Certificates;
+			sourceTree = "<group>";
+		};
+		8D8BB0FC198BC7E300E80E32 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8D15ED3918B3B5A300D3A983 /* APHelper.h */,
+				8D15ED3A18B3B5A300D3A983 /* APHelper.m */,
+				8D5F49FE18BF7D6400F620A9 /* APDeviceModel.h */,
+				8D5F49FF18BF7D6400F620A9 /* APDeviceModel.m */,
+				8D8BEC6C18BB564900E80C62 /* APArrayController.h */,
+				8D8BEC6D18BB564900E80C62 /* APArrayController.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15ECDF18B391F000D3A983 /* APNS Pusher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D15ED1418B391F000D3A983 /* Build configuration list for PBXNativeTarget "APNS Pusher" */;
+			buildPhases = (
+				8D15ECDC18B391F000D3A983 /* Sources */,
+				8D15ECDD18B391F000D3A983 /* Frameworks */,
+				8D15ECDE18B391F000D3A983 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "APNS Pusher";
+			productName = AquaManualPush;
+			productReference = 8D15ECE018B391F000D3A983 /* APNS Pusher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D15ECD818B391F000D3A983 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AP;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = oysterlabs;
+				TargetAttributes = {
+					8D15ECDF18B391F000D3A983 = {
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 8D15ECDB18B391F000D3A983 /* Build configuration list for PBXProject "APNS Pusher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D15ECD718B391F000D3A983;
+			productRefGroup = 8D15ECE118B391F000D3A983 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15ECDF18B391F000D3A983 /* APNS Pusher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15ECDE18B391F000D3A983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6F779818B7541B001E2D13 /* APViewController.xib in Resources */,
+				8D15ECEE18B391F000D3A983 /* InfoPlist.strings in Resources */,
+				8D1138E918BE9841000A0779 /* MainMenu.xib in Resources */,
+				8D18E54D18C0A66000E04B70 /* Resources.xcassets in Resources */,
+				8D15ECF418B391F000D3A983 /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15ECDC18B391F000D3A983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D200E5C2149AD3300AF7D43 /* APNS Pusher.xcdatamodeld in Sources */,
+				8DB137261B1349D4003B3E92 /* GCDAsyncSocket.m in Sources */,
+				8D6F779718B7541B001E2D13 /* APViewController.m in Sources */,
+				8D8BB0F9198BC45300E80E32 /* APStackOfStacks.m in Sources */,
+				8D2B48591912929500CFE0E6 /* APCertificateHolder.m in Sources */,
+				8DA7995A197FB925000ECB2C /* APPayloadHolder.m in Sources */,
+				8D8BEC6E18BB564900E80C62 /* APArrayController.m in Sources */,
+				8D15ECF018B391F000D3A983 /* main.m in Sources */,
+				8D15ECF718B391F000D3A983 /* APAppDelegate.m in Sources */,
+				8DA7995D197FC29D000ECB2C /* APPayloadStack.m in Sources */,
+				8D15ED3B18B3B5A300D3A983 /* APHelper.m in Sources */,
+				8D2B4856191278DE00CFE0E6 /* APNetworkingManager.m in Sources */,
+				8D5F4A0018BF7D6400F620A9 /* APDeviceModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D15ECEC18B391F000D3A983 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D15ECED18B391F000D3A983 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8D15ECF218B391F000D3A983 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D15ECF318B391F000D3A983 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D15ED1218B391F000D3A983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8D15ED1318B391F000D3A983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8D15ED1518B391F000D3A983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APNS Pusher/APNS Pusher-Prefix.pch";
+				INFOPLIST_FILE = "APNS Pusher/APNS Pusher-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apns.pusher;
+				PRODUCT_NAME = "APNS Pusher";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8D15ED1618B391F000D3A983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "APNS Pusher/APNS Pusher-Prefix.pch";
+				INFOPLIST_FILE = "APNS Pusher/APNS Pusher-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apns.pusher;
+				PRODUCT_NAME = "APNS Pusher";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D15ECDB18B391F000D3A983 /* Build configuration list for PBXProject "APNS Pusher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D15ED1218B391F000D3A983 /* Debug */,
+				8D15ED1318B391F000D3A983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D15ED1418B391F000D3A983 /* Build configuration list for PBXNativeTarget "APNS Pusher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D15ED1518B391F000D3A983 /* Debug */,
+				8D15ED1618B391F000D3A983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8D200E5A2149AD3300AF7D43 /* APNS Pusher.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8D200E5B2149AD3300AF7D43 /* APNS Pusher.xcdatamodel */,
+			);
+			currentVersion = 8D200E5B2149AD3300AF7D43 /* APNS Pusher.xcdatamodel */;
+			path = "APNS Pusher.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8D15ECD818B391F000D3A983 /* Project object */;
+}
